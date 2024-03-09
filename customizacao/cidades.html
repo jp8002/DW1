@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /*Style the header*/
+        header{
+            background-color:#666;
+            padding:30px;
+            text-align:center;
+            font-size: 35px;
+            color:white;
+        }
+
+        /* Container for flexboxes*/
+
+        section{
+            display: -webkit-flex;
+            display:flex;
+        }
+
+        /* Style the navigation menu */
+        nav{
+            -webkit-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            background: #ccc;
+            padding:20px;
+        }
+
+        nav ul{
+            list-style-type: none;
+            padding:0;
+        }
+
+        /* Styling the content*/
+        article{
+            -webkit-flex:3;
+            -ms-flex: 3;
+            flex:3;
+            background-color:#f1f1f1;
+            padding:10px;
+        }
+
+        /* Style the footer*/
+        footer{
+            background-color:#777;
+            padding:10px;
+            text-align:center;
+            color:white;
+        }
+
+        /*Layout responsivo - do menu e do conteúdo dentro da seção*/
+
+        @media (max-width: 600px){
+            section{
+                -webkit-flex-direction:colunm;
+                flex-direction:column;
+            }
+        }
+
+        /* Images styling*/
+        img{
+            width: 500px;
+            height: 250px;
+        }
+
+        img:hover{
+            width: 1000px;
+            height: 500px;
+        }
+    </style>
+    <title>CSS Template</title>
+</head>
+<body>
+    <header>
+        <h2>Cidades</h2>
+    </header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">São Bernardo do campo</a></li>
+                <li><a href="#">Campinas</a></li>
+                <li><a href="#">Jundíai</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>São Bernardo do campo</h1>
+            <p>São Bernardo do Campo é um município brasileiro do estado de São Paulo, na Região Imediata de São Paulo. Pertence a Zona Sudeste da Grande São Paulo, em conformidade com a lei estadual nº 1.139, de 16 de junho de 2011 e, consequentemente, com o Plano de Desenvolvimento Urbano Integrado da Região Metropolitana de São Paulo, e também à região não-oficial do Grande ABC.</p>
+            <center><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.guiadoturismobrasil.com%2Fup%2Fimg%2F1519764501.jpg&f=1&nofb=1&ipt=b22adfcf5ca50507ab3ec7bd3491a96cf92fbf4b1c45d9b6867f785cc1b81705&ipo=images"></center>
+            
+            
+            <p>mais informações da cidade e uma imagem...</p>
+        </article>
+    </section>
+    <footer>
+        <p>Rodapé</p>
+    </footer>
+</body>
+</html>
