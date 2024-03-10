@@ -66,42 +66,80 @@
                 -webkit-flex-direction:colunm;
                 flex-direction:column;
             }
+
+           
         }
 
         /* Images styling*/
         img{
-            width: 500px;
-            height: 250px;
+            width: 66%;
+            border: 2px solid ;
+            margin: 1px;
         }
 
-        img:hover{
-            width: 1000px;
-            height: 500px;
+        /* Remove a tag stylizing */
+        a{
+            text-decoration: none;
         }
+
+        div{
+            display: flex;
+            width: 50%;
+        }
+
     </style>
     <title>CSS Template</title>
 </head>
 <body>
-    <header>
-        <h2>Cidades</h2>
+    <header id="inicio">
+        <h2 >Cidades</h2>
     </header>
 
     <section>
         <nav>
             <ul>
-                <li><a href="#">São Bernardo do campo</a></li>
-                <li><a href="#">Campinas</a></li>
-                <li><a href="#">Jundíai</a></li>
+                <li><a href="#inicio">São Bernardo do Campo</a></li>
+                <li><a href="#campinas">Campinas</a></li>
+                <li><a href="#jundiai">Jundíai</a></li>
             </ul>
         </nav>
 
         <article>
-            <h1>São Bernardo do campo</h1>
+            <h1>São Bernardo do Campo</h1>
             <p>São Bernardo do Campo é um município brasileiro do estado de São Paulo, na Região Imediata de São Paulo. Pertence a Zona Sudeste da Grande São Paulo, em conformidade com a lei estadual nº 1.139, de 16 de junho de 2011 e, consequentemente, com o Plano de Desenvolvimento Urbano Integrado da Região Metropolitana de São Paulo, e também à região não-oficial do Grande ABC.</p>
-            <center><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.guiadoturismobrasil.com%2Fup%2Fimg%2F1519764501.jpg&f=1&nofb=1&ipt=b22adfcf5ca50507ab3ec7bd3491a96cf92fbf4b1c45d9b6867f785cc1b81705&ipo=images"></center>
+            <div>
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.guiadoturismobrasil.com%2Fup%2Fimg%2F1519764501.jpg&f=1&nofb=1&ipt=b22adfcf5ca50507ab3ec7bd3491a96cf92fbf4b1c45d9b6867f785cc1b81705&ipo=images">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ea/Vis%C3%A3o_Panor%C3%A2mica_de_S%C3%A3o_Bernardo_do_Campo.jpg">
+                <img src="https://i0.wp.com/pegamosumaestrada.com.br/wp-content/uploads/2023/09/Onde-fica-Sao-Bernardo.jpg?resize=800%2C517&ssl=1">
+            </div>
+            <p>A origem da cidade remonta a 1553, quando é oficializada a Vila de Santo André da Borda do Campo, fundada pelo português João Ramalho, junto a seu sogro Tibiriçá. A Vila foi o primeiro núcleo de povoamento do território brasileiro fora do litoral. O nome do município provém da Fazenda de São Bernardo, fundada pelos monges beneditinos em 1717, origem da ocupação moderna da cidade.
+            </p>
+            <br>
+
+            <h1 id="campinas">Campinas</h1>
+            <p>Campinas é uma cidade no sudeste brasileiro, a noroeste de São Paulo. A sua Catedral Metropolitana possui um interior em madeira de jacarandá e um museu de arte sacra. A Torre do Castelo,anteriormente uma torre de água, proporciona vistas panorâmicas. No norte, O Parque Portugal inclui um planetário e elétricos restaurados de inícios do século XX. Na extremidade do parque, o Museu do Café recorda a história da cidade enquanto produtora de café</p>
+            <div>
+                <img src="https://images.ctfassets.net/uzue8dgm4ubt/3jGp7az24ua6h2jkwG0D3d/6176371522e3dccb3cf4da444a46848d/Campinas_SP.jpg?fm=jpg&w=1000&fit=scale">
+                <img src="https://sonharemorar.mrv.com.br/wp-content/uploads/2023/04/o-que-fazer-em-campinas-750x490.webp">
+                <img src="https://blog.vittaresidencial.com.br/wp-content/uploads/2022/04/morar-em-campinas.jpg">
+            </div>
             
+            <p>Com o décimo segundo maior PIB entre os municípios do país, é a primeira cidade brasileira a se tornar metrópole sem ser uma capital, exercendo significativa influência nacional.[11] Em 2011, foi responsável por pelo menos 15% de toda a produção científica nacional, sendo o terceiro maior polo de pesquisa e desenvolvimento brasileiro.[12] Tem também diversos atrativos turísticos, com valor histórico, cultural ou científico, como museus, parques e teatros. A Orquestra Sinfônica Municipal de Campinas, fundada em 1974, é considerada uma das principais do país.</p>
+            <center>
             
-            <p>mais informações da cidade e uma imagem...</p>
+            <button ><a href="#inicio">Voltar ao início</a></button></center>
+            <br>
+
+            <h1 id="jundiai">Jundiaí</h1>
+            <p>Jundiaí é um município brasileiro do estado de São Paulo, sede da região metropolitana de Jundiaí. Localiza-se a 23º11'11" de latitude sul e 46º53'03" de longitude oeste, a uma altitude de 762 metros. Dista 57 quilômetros do município de São Paulo. Conforme dados do Instituto Brasileiro de Geografia e Estatística (IBGE) de 2022, sua população era de 443 116 habitantes, ficando na 15° posição entre os municípios mais populosos do estado, sendo o 6º maior do interior paulista. Também é o 59° maior do Brasil, sendo maior que quatro capitais estaduais.[9] Seu nome é uma referência ao rio Jundiaí, que significa "rio dos jundiás", famoso peixe da época da colonização do interior paulista (peixe hoje em extinção).</p>
+            <div>
+                <img src="https://jundiai.sp.gov.br/noticias/wp-content/uploads/sites/32/2019/01/visita-prefeito_viaduto-corrego-das-valquirias-559.jpg">
+                <img src="https://jundiai.sp.gov.br/noticias/wp-content/uploads/sites/32/2018/06/aerea.jpg">
+                <img src="https://s2-g1.glbimg.com/ID_RxPUPs92by-8bfpxfqpYK3hE=/0x0:1280x853/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2021/E/8/jEZeJESFuOJDB4gIB1UQ/noturna-9-de-julho-com-av-jundiai-2.jpg">
+            </div>
+            <p>O município apresentou, em 2016, um produto interno bruto (PIB) de mais de 39,7 bilhões de reais, colocando o município na 18.° posição em todo o país, à frente de dez capitais, sendo o 7.º município mais rico do Estado de São Paulo[8] Em 2013, seu índice de desenvolvimento humano atingiu 0,822, levando a cidade à 11.ª melhor posição do Brasil e à 4.ª melhor do estado. Segundo a Federação das Indústrias do Estado do Rio de Janeiro (FIERJ), Jundiaí é a 9.ª cidade com maior qualidade de vida do Brasil, apresentando um Índice FIRJAN de Desenvolvimento Municipal de 0,8892 em 2013. Também é um dos municípios mais seguros do país e do interior do estado, com um risco de homicídio de 6,88 por 100 mil habitantes (índice de 2012),[11] além de também estar em primeiro lugar em saneamento básico no ranking do Instituto Trata Brasil, entre as cidades brasileiras acima de 300 000 habitantes</p>
+            <center>
+            <button ><a href="#inicio">Voltar ao início</a></button></center>
         </article>
     </section>
     <footer>
